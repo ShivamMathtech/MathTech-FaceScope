@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "engine": "Chromium",
+  "tests": [
+    "engine initialization",
+    "video decode",
+    "face detection",
+    "neutral calibration",
+    "full-video scan",
+    "strict timestamp ordering",
+    "52 blendshape channels",
+    "JSON/CSV/report/snapshot export",
+    "session save/review/reload/delete",
+    "mobile width 390 px",
+    "no external requests"
+  ],
+  "sample_count": 823,
+  "summary": {
+    "samples": 823,
+    "detected": 822,
+    "tracking_percent": 99.87849331713244,
+    "duration": 54.8,
+    "blinks": 4,
+    "eye_left": {
+      "mean": 0.33319401880604266,
+      "min": 0.10459444169998817,
+      "max": 0.4152084739019945
+    },
+    "eye_right": {
+      "mean": 0.35023877577779317,
+      "min": 0.1141837693502077,
+      "max": 0.4198873684839341
+    },
+    "mouth": {
+      "mean": 0.08920031796627077,
+      "min": 0.009338636190104764,
+      "max": 0.14631899081945351
+    },
+    "yaw": {
+      "mean": -0.9968392131222745,
+      "min": -17.25411238859001,
+      "max": 20.392751681900343
+    },
+    "pitch": {
+      "mean": 2.044641798939833,
+      "min": -6.7760115545145405,
+      "max": 8.610978058490952
+    },
+    "roll": {
+      "mean": -0.7558790193946587,
+      "min": -24.289055158394014,
+      "max": 18.30931431432837
+    },
+    "iris_x": {
+      "mean": 0.47903720697129365,
+      "min": 0.3414553780059206,
+      "max": 0.6071855725870912
+    },
+    "iris_y": {
+      "mean": -0.044546554153249936,
+      "min": -0.12753409486494027,
+      "max": 0.018435859014873962
+    }
+  },
+  "page_errors": [],
+  "external_requests": [],
+  "validation_date": "2026-09-22",
+  "unit_tests": {
+    "javascript_passed": 17,
+    "python_passed": 11
+  },
+  "edge_tests": {
+    "passed": true,
+    "tests": [
+      "fake webcam acquisition",
+      "478 raw landmark triplets",
+      "16 transform entries",
+      "camera track released",
+      "no-face null values",
+      "no false blink on black video",
+      "batch cancel retains partial data",
+      "seek starts clean dataset"
+    ],
+    "page_errors": []
+  }
+}
