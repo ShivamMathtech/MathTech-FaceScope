@@ -1,0 +1,9 @@
+{
+  "name": "mathtech-facescope",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local face geometry and motion analysis workbench",
+  "scripts": {"test": "node --test tests/*.test.mjs", "start": "python3 run.py"},
+  "engines": {"node": ">=20"}
+}
